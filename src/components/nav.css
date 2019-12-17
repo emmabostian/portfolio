@@ -1,0 +1,32 @@
+.nav {
+  position: fixed;
+  width: 250px;
+  background-color: white;
+  height: calc(100vh - 90px);
+  top: 90px;
+  left: 0;
+  background: #edf5e1;
+  color: #05386b;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 24px;
+  margin: 0;
+}
+
+.nav-list-item {
+  margin: 16px 0;
+}
+
+.nav-list-item > a {
+  text-decoration: none;
+  color: #05386b;
+  transition: border 0.1s linear;
+  border-bottom: 2px transparent;
+}
+
+.nav-list-item > a:hover,
+.nav-list-item > a:focus {
+  border-bottom: 2px solid #05386b;
+}
